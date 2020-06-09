@@ -1,5 +1,5 @@
 {
-  "plugin": [
+  "plugins": [
     "prettier"
   ],
   "extends": [
@@ -8,9 +8,9 @@
   ],
   "rules": {
     "no-console": [
-      false
+      1
     ],
-    "@typescript-eslint/indent": "ingore",
-    "pretter/pretter": "error"
+    "@typescript-eslint/indent": 1,
+    "prettier/prettier": 2
   }
 }
